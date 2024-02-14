@@ -8,8 +8,7 @@ export const types = `#graphql
     type Tweet{
         id:ID!
         content:String!
-        imageURl :String
-
+        imageURL :String
         author: User
     }
 `;
